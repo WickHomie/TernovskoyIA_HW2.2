@@ -13,6 +13,7 @@
 		31134EC927A13660003799D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31134EC727A13660003799D3 /* Main.storyboard */; };
 		31134ECB27A13663003799D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31134ECA27A13663003799D3 /* Assets.xcassets */; };
 		31134ECE27A13663003799D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31134ECC27A13663003799D3 /* LaunchScreen.storyboard */; };
+		314D82C827B10B4200DCA253 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314D82C727B10B4200DCA253 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		31134ECA27A13663003799D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31134ECD27A13663003799D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31134ECF27A13663003799D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314D82C727B10B4200DCA253 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3107AF4727B1036900CE8421 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				31134EC727A13660003799D3 /* Main.storyboard */,
+				31134ECC27A13663003799D3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		31134EB527A13660003799D3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +67,12 @@
 		31134EC027A13660003799D3 /* TernovskoyIA_HW2.2 */ = {
 			isa = PBXGroup;
 			children = (
+				314D82C727B10B4200DCA253 /* FirstViewController.swift */,
+				31134EC527A13660003799D3 /* ViewController.swift */,
 				31134EC127A13660003799D3 /* AppDelegate.swift */,
 				31134EC327A13660003799D3 /* SceneDelegate.swift */,
-				31134EC527A13660003799D3 /* ViewController.swift */,
-				31134EC727A13660003799D3 /* Main.storyboard */,
+				3107AF4727B1036900CE8421 /* Storyboards */,
 				31134ECA27A13663003799D3 /* Assets.xcassets */,
-				31134ECC27A13663003799D3 /* LaunchScreen.storyboard */,
 				31134ECF27A13663003799D3 /* Info.plist */,
 			);
 			path = TernovskoyIA_HW2.2;
@@ -141,6 +152,7 @@
 				31134EC627A13660003799D3 /* ViewController.swift in Sources */,
 				31134EC227A13660003799D3 /* AppDelegate.swift in Sources */,
 				31134EC427A13660003799D3 /* SceneDelegate.swift in Sources */,
+				314D82C827B10B4200DCA253 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
